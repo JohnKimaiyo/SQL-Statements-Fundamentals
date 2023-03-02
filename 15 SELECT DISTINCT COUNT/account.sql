@@ -1,0 +1,12 @@
+      
+SELECT COUNT (DISTINCT AccountDescription)--, [AccountKey]
+      --,[ParentAccountKey]
+    --  ,[AccountCodeAlternateKey]
+     -- ,[ParentAccountCodeAlternateKey]
+     -- ,[AccountDescription]
+     -- ,[AccountType]
+     -- ,[Operator]
+     -- ,[CustomMembers]
+     -- ,[ValueType]
+     -- ,[CustomMemberOptions]
+  FROM [AdventureWorksDW2019].[dbo].[DimAccount]
